@@ -21,5 +21,4 @@ if __name__ == "__main__":
 
         n += 1
 
-
     print(n - 1)
