@@ -9,4 +9,4 @@ def is_prime(number: int):
     return True
 
 
-print(sum([i for i in range(2, int(2e6)) if is_prime(i)]))
+print(sum([i for i in range(3, int(2e6), 2) if is_prime(i)]) + 2)
